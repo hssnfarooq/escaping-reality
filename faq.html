@@ -31,8 +31,8 @@
           p.parentNode.insertBefore(m, p);
       })(
         document,
-        'script',
-        'https://chimpstatic.com/mcjs-connected/js/users/15fdfd03a1295dafecab1b4fb/07c6d7acfd3e1aec8e61ed573.js'
+        "script",
+        "https://chimpstatic.com/mcjs-connected/js/users/15fdfd03a1295dafecab1b4fb/07c6d7acfd3e1aec8e61ed573.js"
       );
     </script>
 
@@ -395,18 +395,6 @@
                 </p>
 
                 <p>
-                  When you leave everything up to the market to decide with
-                  literally no limits (other than the supply of the
-                  cryptocurrency), you should pretty much come to expect crazy
-                  returns like the ones that are going on. When you also
-                  consider the fact that there are almost no restrictions to who
-                  can buy a cryptocurrency and when they buy a cryptocurrency,
-                  it!s only natural that coins like Bitcoin and Ethereum have
-                  been seeing such insane returns. The possibilities are, quite
-                  literally, endless.
-                </p>
-
-                <p>
                   Please email us at info@escapingrealityvr.com to arrange for a
                   corporate booking.
                 </p>
@@ -642,18 +630,18 @@
                   (function ($) {
                     window.fnames = new Array();
                     window.ftypes = new Array();
-                    fnames[0] = 'EMAIL';
-                    ftypes[0] = 'email';
-                    fnames[1] = 'FNAME';
-                    ftypes[1] = 'text';
-                    fnames[2] = 'LNAME';
-                    ftypes[2] = 'text';
-                    fnames[3] = 'ADDRESS';
-                    ftypes[3] = 'address';
-                    fnames[4] = 'PHONE';
-                    ftypes[4] = 'phone';
-                    fnames[5] = 'BIRTHDAY';
-                    ftypes[5] = 'birthday';
+                    fnames[0] = "EMAIL";
+                    ftypes[0] = "email";
+                    fnames[1] = "FNAME";
+                    ftypes[1] = "text";
+                    fnames[2] = "LNAME";
+                    ftypes[2] = "text";
+                    fnames[3] = "ADDRESS";
+                    ftypes[3] = "address";
+                    fnames[4] = "PHONE";
+                    ftypes[4] = "phone";
+                    fnames[5] = "BIRTHDAY";
+                    ftypes[5] = "birthday";
                   })(jQuery);
                   var $mcj = jQuery.noConflict(true);
                 </script>
@@ -823,7 +811,7 @@
       <script src="js/owl.carousel.js"></script>
 
       <script>
-        $('#owl-demo1').owlCarousel({
+        $("#owl-demo1").owlCarousel({
           loop: true,
 
           ltr: true,
@@ -851,7 +839,7 @@
           },
         });
 
-        $('#owl-demo2').owlCarousel({
+        $("#owl-demo2").owlCarousel({
           loop: true,
 
           ltr: true,
@@ -888,8 +876,8 @@
 
       <script>
         $(document).ready(function () {
-          $('.fa-search').click(function () {
-            $('.search-box').toggle(1000);
+          $(".fa-search").click(function () {
+            $(".search-box").toggle(1000);
 
             $("input[type='text']").focus(1000);
           });
@@ -898,9 +886,9 @@
 
       <script>
         $(document).ready(function () {
-          $('#go-to-top').each(function () {
+          $("#go-to-top").each(function () {
             $(this).click(function () {
-              $('html,body').animate({ scrollTop: 0 }, 3000);
+              $("html,body").animate({ scrollTop: 0 }, 3000);
 
               return false;
             });
@@ -911,37 +899,37 @@
       <script>
         jQuery(window).scroll(function () {
           if (jQuery(this).scrollTop() > 1) {
-            jQuery('.nav_holder').addClass('sticky slideInDown');
+            jQuery(".nav_holder").addClass("sticky slideInDown");
           } else {
-            jQuery('.nav_holder').removeClass('sticky  slideInDown');
+            jQuery(".nav_holder").removeClass("sticky  slideInDown");
           }
         });
       </script>
       <script>
-        document.getElementById('getyear').innerHTML = new Date().getFullYear();
+        document.getElementById("getyear").innerHTML = new Date().getFullYear();
       </script>
 
       <script>
         $(document).ready(function () {
-          $('.set > a').on('click', function () {
-            if ($(this).hasClass('active')) {
-              $(this).removeClass('active');
-              $(this).siblings('.content').slideUp(200);
-              $('.set > a i')
-                .removeClass('fa-angle-up')
-                .addClass('fa-angle-down');
+          $(".set > a").on("click", function () {
+            if ($(this).hasClass("active")) {
+              $(this).removeClass("active");
+              $(this).siblings(".content").slideUp(200);
+              $(".set > a i")
+                .removeClass("fa-angle-up")
+                .addClass("fa-angle-down");
             } else {
-              $('.set > a i')
-                .removeClass('fa-angle-up')
-                .addClass('fa-angle-down');
+              $(".set > a i")
+                .removeClass("fa-angle-up")
+                .addClass("fa-angle-down");
               $(this)
-                .find('i')
-                .removeClass('fa-angle-down')
-                .addClass('fa-angle-up');
-              $('.set > a').removeClass('active');
-              $(this).addClass('active');
-              $('.content').slideUp(200);
-              $(this).siblings('.content').slideDown(200);
+                .find("i")
+                .removeClass("fa-angle-down")
+                .addClass("fa-angle-up");
+              $(".set > a").removeClass("active");
+              $(this).addClass("active");
+              $(".content").slideUp(200);
+              $(this).siblings(".content").slideDown(200);
             }
           });
         });
